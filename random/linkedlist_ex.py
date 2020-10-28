@@ -1,4 +1,3 @@
-
 class node:
     def __init__(self, data=None):
         self.data=data
@@ -6,7 +5,7 @@ class node:
 
 class linked_list:
     def __init__(self):
-        self.head = node()       #never contians actual data and it is not indexable, used as placeholder
+        self.head = node()       #never contains actual data and it is not indexable, used as placeholder
     
     def append(self,data):
         new_node = node(data)
